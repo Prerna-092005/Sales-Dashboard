@@ -1,0 +1,54 @@
+{
+ "cells": [
+  {
+   "cell_type": "markdown",
+   "id": "6074e709-d1e7-46e2-9b98-9837a14f5024",
+   "metadata": {},
+   "source": [
+    "## Insights:\n",
+    "\"\"\"1. The Global Superstore achieved total sales of  $12.64M  and profits of $1.47M, with 178K units sold.\n",
+    "\n",
+    "2. 'Cubify Cube' was the top-selling product, contributing 37.93% of the Top 5 sales.\n",
+    "\n",
+    "3. The 'Home Office' segment generated the highest profits, while the 'Corporate' segment was the least profitable.\n",
+    "\n",
+    "4. Most of the sales were concentrated in North America and Western Europe, with limited activity in Eastern Africa.\n",
+    "\"\"\"\n",
+    "\n",
+    "with open(\"insights.txt\", \"w\") as file:\n",
+    "    file.write(insights)\n",
+    "\n",
+    "print(\"insights.txt has been created.\")\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "3e81eaf3-3bba-43a6-8170-e92e900d025c",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python 3 (ipykernel)",
+   "language": "python",
+   "name": "python3"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.11.7"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 5
+}
